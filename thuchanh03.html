@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3: Làm một trang web bán hàng trực tuyến có nội dung như sau</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contener h2{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card{
+            height: 170px;
+            width: 240px;
+            border-radius: 5px;
+            border: 0.1px solid black;
+            margin-bottom: 20px;
+        }
+        
+        .card-grid{
+            display: grid;
+            column-gap: 50px;
+            grid-template-columns: auto auto ;
+            justify-content: center;
+            padding: 10px;
+        }
+        
+        .card img{
+            margin-left: 20px;
+            padding: 10px;
+        }
+
+        .card div{
+            text-align: center;
+        }
+
+        .card p{
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        #sty-but1{
+            background-color:black;
+            color: white;
+            width: 50px;
+            height: 25px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <h2>Sách Trực Tuyến</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 1">
+                <div><strong>Sách 1</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 2">
+                <div><strong>Sách 2</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 3">
+                <div><strong>Sách 3</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 4">
+                <div><strong>Sách 4</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 5">
+                <div><strong>Sách 5</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pic.jsc" alt="Sách 6">
+                <div><strong>Sách 6</strong></div>
+                <p>Giá: $10</p>
+                <div>
+                    <button id="sty-but1">Mua</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

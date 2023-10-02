@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1: Hãy làm một trang web quản lý công việc với nội dung như ở dưới ảnh. Sử dụng các thẻ HTML5 và thuộc tính layout Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .task-list{
+            height: 50px;
+            width: 700px;
+            background-color: #2879ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        #sty-tl{
+            color: white;
+            display: flex;
+            /* align-items: center; */
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        #sty-bt{
+            /* background-color: blueviolet; */
+            height: 30px;
+            width: 55px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .new-ts{
+            display: flex;
+            height : 60px;
+            padding: 10px;
+        }
+
+        .sty-sha{
+            height: 40px;
+            width: 700px;
+            background-color: beige;
+            display: flex ;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .tas-lis-ap{
+            height: 40px;
+            width: 700px;
+            background-color: azure;
+            display: flex ;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sty-butt{
+            height: 25px;
+            width: 70px;
+            background-color: #2879ff;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="task-list">
+        <div id="sty-tl">Task List</div>
+        <button id="sty-bt">Share</button> 
+        
+    </div>
+    <br/>
+
+    <div class="new-ts">
+        <p style="padding-top: 6px;">New task:</p>
+        <div>
+            <input type="text" style="border-top: 0; border-right: 0; border-left: 0;    width: 550px; padding-top: 6px;">
+        </div>
+        <button  class="sty-butt">Add task</button>
+    </div>
+
+    <div class="contener">
+        <div class="sty-sha">
+            <strong>Share task list</strong>
+        </div>
+        <div class="tas-lis-ap">
+            <div class="conten-lis-app">
+                @ 2023 task list apps
+            </div>
+        </div>
+    </div>
+</body>
+</html>

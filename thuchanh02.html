@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2: Tạo trang web cho cá nhân bản thân mình như dưới đây</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contener{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .header{
+            height: 50px;
+            background-color: rgb(16, 14, 14);
+            color: aliceblue;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu1{
+            height: 40px;
+            display: flex;
+            background-color: beige;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .content h3{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 10px;
+            font-size:29px;
+        }
+        
+        .content p{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        #sty-butvw{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            margin-top:10px;
+        }
+        .content-grid h3{
+            display:flex;
+            justify-content: center;
+            margin-top: 30px;
+            font-size: 28px;
+        }
+        .sty-pic{
+
+            
+            display: flex;
+            justify-content:space-evenly;
+            padding: 20px;
+        }
+ 
+        .sty-ofme h3{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+
+        }
+
+        .sty-ofme p{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .end-web{
+            height: 40px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="header">
+            <p><Strong>Portfolio Website</Strong></p>
+        </div>
+
+        <div class="menu1">
+            <div>Home</div>
+            <div>About</div>
+            <div>Portlolio</div>
+            <div>Contact</div>
+        </div>
+
+        <div class="content">
+            <h3>Welcome to my portfolio website</h3> 
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel inventore incidunt voluptatum consequuntur itaque aliquid.</p>
+            <div id="sty-butvw"><button style="padding: 5px; border-radius: 8px;">View Portlolio</button></div>
+        </div>
+
+        <div class="content-grid">
+            <h3>Featured Work</h3>
+            <div class="sty-pic">
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcBBu5uwrVdz-x6xr3eoEFFEm07mvgj5elQ&usqp=CAU" alt="Trulli" style="width:100%">
+                    <figcaption style="text-align: center;">Project 1</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcBBu5uwrVdz-x6xr3eoEFFEm07mvgj5elQ&usqp=CAU" alt="Trulli" style="width:100%">
+                    <figcaption style="text-align: center;">Project 2</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcBBu5uwrVdz-x6xr3eoEFFEm07mvgj5elQ&usqp=CAU" alt="Trulli" style="width:100%">
+                    <figcaption style="text-align: center;">Project 3</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcBBu5uwrVdz-x6xr3eoEFFEm07mvgj5elQ&usqp=CAU" alt="Trulli" style="width:100%">
+                    <figcaption style="text-align: center;">Project 4</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="sty-ofme">
+            <h3 >About Me</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At neque commodi inventore quas hic autem, distinctio necessitatibus enim, minus corrupti omnis laboriosam unde facere veritatis consequuntur culpa. Soluta, at consequatur!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut fugiat voluptatibus numquam earum asperiores rerum quia, tempore, doloribus velit optio architecto iste ipsa reprehenderit quaerat sapiente possimus veniam alias rem?</p>
+        </div>
+
+        <div class="end-web">
+            <p>@ 2023 Portfolio website</p>
+        </div>
+    </div>
+</body>
+</html>

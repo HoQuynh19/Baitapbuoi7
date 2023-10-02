@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4: Sử dụng layout grid để làm ra trang web có nội dung như sau</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contener{
+            width: 800px;
+            height: 880px;
+            background-color: beige;
+            color: white;
+            padding: 10px;
+            position: relative;
+
+        }
+        .card1{
+            height: 200px;
+            width: 100%;
+            background-image: url('https://cdn.britannica.com/78/91978-050-B23E016C/balloons-NM-Albuquerque.jpg?w=300');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card1 div{
+            font-size: 30px;
+        }
+
+        .card1 p{
+            font-size: 20px;
+        }
+
+        .card2{
+            height: 500px;
+            width: 400px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1wTMBTh58Edoekg3vM1l__RmqWAA3kLGkFWVciZvPc47ZOG62vfT-TdY1_IqgfkFDA8&usqp=CAU');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: cover;
+            padding-left: 20px;
+            padding-top: 400px;
+        }
+
+        .card2 div{
+            font-size: 30px;
+        }
+
+        .card2 p{
+            font-size: 20px;
+        }
+
+        .card3{
+            height: 150px;
+            width: 400px;
+            background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwUWP-bY6W_F5XQY0QNbnjO1ypAxXb5A1g1muPKqG6MqAdnxPd4Fr-TXqJvGltW67JyAg&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card3 div{
+            font-size: 25px;
+            padding-left: 20px;
+            padding-top:40px;
+        }
+
+        .card3 p{
+            padding-left: 20px;
+        }
+
+        .card4{
+            height: 150px;
+            width: 375px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNJoA2oYE_C_34OYgwLhxzVZVJ8l_ELHk9DBV7O3l4N-wpys74A1N19duJ7lrzbbpTJg&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:absolute;
+            top: 220px;
+            left: 415px;
+        }
+
+        .card4 div{
+            font-size: 25px;
+            padding-left: 20px;
+            padding-top:10px;
+        }
+
+        .card4 p{
+            padding-left: 20px;
+        }
+
+        .card5{
+            height: 150px;
+            width: 375px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZC2pD9Ps6UytX3f3MCZiAx7mnUM7yY2PgoYilIE75ZFn6nKvjqiPtMjlQS1f9dUvSWQ&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:absolute;
+            top: 375px;
+            left: 415px;
+        }
+
+        .card5 div{
+            font-size: 25px;
+            padding-left: 20px;
+            padding-top:10px;
+        }
+
+        .card5 
+        p{
+            padding-left: 20px;
+        }
+
+        .card6{
+            height: 340px;
+            width: 375px;
+            background-color: brown;
+            position:absolute;
+            top: 530px;
+            left: 415px;
+        }
+
+        .card6 p{
+            padding-left: 20px;
+            padding-top: 40px;
+        }
+
+        .card6 div{
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top:210px;
+        }
+
+        #sty-but1{
+            padding: 10px 40px 10px 40px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="card1">
+           <div>We like balloons</div>
+           <p>You can find kinds of balloon relaced things hear.</p>
+        </div>
+
+        <div class="card2">
+            <div>Special Shapes</div>
+            <p>why are some of them so scary looking?</p>
+         </div>
+
+         <div class="card3">
+            <div>10 Things you discover <br> When taking a balloon <br>ride.</div>
+            <p>Number 8 will AMAZE you.</p>
+         </div>
+
+         <div class="card4">
+            <div>Angry people at balloon <br> fiestas</div>
+            <p>Hot air balloons. A bit weather sensitive.</p>
+         </div>
+
+         <div class="card5">
+            <div>Balloon photos</div>
+            <p>I have quite a few.</p>
+         </div>
+
+         <div class="card6">
+            <p>Sing up for more infomation about <br> balloons.</p>
+            <div><button id="sty-but1">Sing me up!</button></div>
+         </div>
+    </div>
+</body>
+</htm
